@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: max-content; 
+    background-color: black;
+    
+}
+
+.nav1 {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.hero h1 {
+    background-color: #e3f2fdcc;
+    border-radius:5px ;
+}
+
+.heroimg {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.heroh1 {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.hero img {
+    width: 100vw;
+    height: 500px;
+}
+
+.aboutus h2 {
+    margin-bottom:20px ;
+     display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutus {
+    margin-bottom:70px ;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    background-color: #fdbf6fb0;
+    /* width: max-content; */
+    /* height: max-content; */
+     gap: 10px; 
+    
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.child1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     align-items: center;
+     gap: 10px; 
+}
+.child1 p {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section2  .parent {
+    background-color: white;
+}
+
+.section4 .parent {
+    background-color: white;
+    /* margin: 80px; */
+}
+
+
+.section4 .child1 {
+    background-color: #fff09dc4;
+    width: 200px;
+}
+.section4 img {
+    width:100px;
+    height: 87px;
+    margin-top: 5px ;
+    border-radius: 5px;
+}
+
+.childchild {
+    background-color: #ffff63;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.section2 .child1 h3 {
+    padding: 20px;
+}
+
+.section3 .child1 h3 {
+    padding: 0px;
+}
+
+.teacherimg {
+    width: 150px;
+    border-radius:2px ;
+}
+
+
+
+.footer .child1 {
+    margin: 20px;
+    gap: 0px;
+    align-items: flex-start;
+}
+
+.footer .child1 #submit {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    width: 100px;
+}
+
+/* @media only screen and (max-width: 639px) {
+    .parent {
+      display: flex;
+      flex-wrap: wrap;
+      width: max-content;
+      height: max-content;
+
+    }
+  } */
